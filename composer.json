@@ -9,16 +9,18 @@
     "license": "MIT",
     "require": {
         "php": "^7.2",
-        "fideloper/proxy": "^4.0",
         "doctrine/dbal": "^2.8",
+        "fideloper/proxy": "^4.0",
         "laravel/framework": "5.7.*",
-        "laravel/tinker": "^1.0",
-        "laravel/passport": "^7.0"
+        "laravel/passport": "^7.0",
+        "laravel/telescope": "^1.0",
+        "laravel/tinker": "^1.0"
     },
     "require-dev": {
         "barryvdh/laravel-debugbar": "^3.2",
         "barryvdh/laravel-ide-helper": "^2.5",
         "beyondcode/laravel-dump-server": "^1.0",
+        "dczajkowski/auth-tests": "^5.7",
         "filp/whoops": "^2.0",
         "fzaninotto/faker": "^1.4",
         "mockery/mockery": "^1.0",
