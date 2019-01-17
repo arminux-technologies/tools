@@ -15,11 +15,12 @@
 
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
-    <script type="application/javascript" src="{{ asset('js/app.js') }}"></script>
+    <script type="application/javascript">const baseUrl = '{{url('/api')}}'</script>
+    <script type="application/javascript" defer src="{{ asset('js/app.js') }}"></script>
 </head>
 <body>
-
-@yield('content')
-
+<div id="app">
+<app></app>
+</div>
 </body>
 </html>
