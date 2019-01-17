@@ -13,7 +13,7 @@ class LoginTest extends TestCase
 
     protected function successfulLoginRoute()
     {
-        return route('home');
+        return route('dashboard');
     }
 
     protected function loginGetRoute()
@@ -38,7 +38,7 @@ class LoginTest extends TestCase
 
     protected function guestMiddlewareRoute()
     {
-        return route('home');
+        return route('dashboard');
     }
 
     public function testUserCanViewALoginForm()

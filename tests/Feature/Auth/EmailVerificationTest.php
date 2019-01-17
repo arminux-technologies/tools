@@ -18,7 +18,7 @@ class EmailVerificationTest extends TestCase
 
     protected function successfulVerificationRoute()
     {
-        return route('home');
+        return route('dashboard');
     }
 
     protected function verificationNoticeRoute()
