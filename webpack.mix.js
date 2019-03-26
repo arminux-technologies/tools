@@ -29,7 +29,7 @@ mix.options({
 mix.js('resources/js/app.js', 'public/js')
 mix.stylus('resources/style/app.styl', 'public/css')
 mix.sourceMaps()
-
+mix.version()
 if (mix.inProduction()) {
   /* extract all vendor */
   //! This Will Cause Error if You Are running 'npm run test'
