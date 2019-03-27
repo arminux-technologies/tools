@@ -23,7 +23,7 @@ services:
     restart: unless-stopped
     tty: true
     ports:
-      - '8080:80'
+      - '80:80'
     volumes:
       - './:/var/www'
       - './nginx/conf.d/:/etc/nginx/conf.d/'
@@ -35,7 +35,7 @@ services:
     restart: unless-stopped
     tty: true
     ports:
-      - '3307:3306'
+      - '3306:3306'
     env_file:
       - .env.mysql
     environment:
