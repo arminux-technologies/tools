@@ -5,9 +5,9 @@
  */
 export default [
   {
-    path: '/dashboard',
+    path: '/Summary',
     // Relative to /src/views
-    view: 'Dashboard'
+    view: 'Summary'
   },
   {
     path: '/user-profile',

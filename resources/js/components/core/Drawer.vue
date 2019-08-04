@@ -87,9 +87,9 @@ export default {
     logo: './img/vuetifylogo.png',
     links: [
       {
-        to: '/dashboard',
+        to: '/summary',
         icon: 'mdi-view-dashboard',
-        text: 'Dashboard'
+        text: 'Summary'
       },
       {
         to: '/user-profile',
